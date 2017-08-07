@@ -2,4 +2,4 @@
 
 ## Purpose
 
-Store solutions for code fights challenges
+Solutions from [Code Fights](https://codefights.com/)
