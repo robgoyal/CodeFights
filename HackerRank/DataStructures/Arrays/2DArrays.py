@@ -1,7 +1,7 @@
 # Name: 2DArrays.py
 # Author: Robin Goyal
 # Last-Modified: October 29, 2017
-# Purpose
+# Purpose: Return the maximum sum of hourglasses in 6x6 array
 
 def main():
     arr = []
