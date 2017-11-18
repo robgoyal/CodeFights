@@ -2,14 +2,16 @@
 # Author: Robin Goyal
 # Last-Modified: November 14, 2017
 # Purpose: Calculate the number of beautiful days that occur in a range
-#          beautiful day -> if the absolute value of the day minus reverse of day 
+#          beautiful day -> if the absolute value of the day minus reverse of day
 #                           is divisible by another integer
+
 
 def main():
 
     i, j, k = map(int, input().strip().split())
     result = beautiful(i, j, k)
     print(result)
+
 
 def beautiful(i, j, k):
     '''
@@ -30,5 +32,6 @@ def beautiful(i, j, k):
 
     return beautiful_days
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()

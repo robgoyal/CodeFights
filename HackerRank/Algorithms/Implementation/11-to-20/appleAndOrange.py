@@ -3,6 +3,7 @@
 # Last-Modified: November 12, 2017
 # Purpose: Check the number of apples and oranges that hit Sam's tree
 
+
 def main():
 
     s, t = list(map(int, input().strip().split(' ')))
@@ -17,10 +18,11 @@ def main():
     print(num_hits(s, t, a, apples_dist))
     print(num_hits(s, t, b, oranges_dist))
 
+
 def num_hits(start, end, tree_dist, fruit_dists):
     '''
     start: starting location of house
-    end: ending location of house 
+    end: ending location of house
     tree_dist: location of fruit tree
     fruit_dists: locations of fallen fruit relative to tree_dist
 
@@ -36,5 +38,6 @@ def num_hits(start, end, tree_dist, fruit_dists):
             count_hits += 1
 
     return count_hits
+
 
 main()

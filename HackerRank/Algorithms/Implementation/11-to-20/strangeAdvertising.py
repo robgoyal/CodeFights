@@ -6,6 +6,7 @@
 
 import math
 
+
 def strangeAdvertising(n):
     '''
     n: number of days
@@ -26,11 +27,13 @@ def strangeAdvertising(n):
 
     return likes
 
+
 def main():
 
     days = int(input().strip())
     result = strangeAdvertising(days)
     print(result)
+
 
 if __name__ == "__main__":
     main()

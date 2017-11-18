@@ -3,6 +3,7 @@
 # Last-Modified: November 17, 2017
 # Purpose: Determine which cat will reach the mouse first
 
+
 def catAndMouse(a, b, c):
     '''
     a: position of cat A
@@ -21,6 +22,7 @@ def catAndMouse(a, b, c):
         print("Cat B")
     else:
         print("Mouse C")
+
 
 def main():
 

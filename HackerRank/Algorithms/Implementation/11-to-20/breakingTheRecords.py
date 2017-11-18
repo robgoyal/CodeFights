@@ -4,6 +4,7 @@
 # Purpose: Calculate the number of times Maria breaks her record for lowest
 #          and highest points scored
 
+
 def breakingTheRecords(scores):
 
     # Initialize low and high scores

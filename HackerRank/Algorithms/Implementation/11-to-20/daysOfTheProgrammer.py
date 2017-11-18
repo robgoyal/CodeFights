@@ -3,11 +3,13 @@
 # Last-Modified: November 13, 2017
 # Purpose: Calculate the 256th day of the year in Russia
 
+
 def main():
 
     year = int(input().strip())
     result = solve(year)
     print(result)
+
 
 def solve(year):
     '''
@@ -33,5 +35,6 @@ def solve(year):
 
     return '{}.0{}.{}'.format(day, month, year)
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()

@@ -4,6 +4,7 @@
 # Purpose: Count the number of times a value is a multiple of all elements
 #          in list A and a factor of all elements in list B
 
+
 def main():
 
     n, m = list(map(int, input().strip().split(' ')))
@@ -12,6 +13,7 @@ def main():
 
     print(get_total(a, b))
 
+
 def get_total(A, B):
     '''
     a: list of numbers
@@ -19,7 +21,7 @@ def get_total(A, B):
 
     x must be a multiple of all elements in A and a factor
     of all elements in B
-    
+
     output: return the number of x's that meet the conditions
     '''
 
