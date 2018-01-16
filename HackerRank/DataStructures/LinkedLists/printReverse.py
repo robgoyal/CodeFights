@@ -26,6 +26,6 @@ def ReversePrint(head):
         values.append(current.data)
         current = current.next
 
-    # Print all elements in reverse order
-    for value in values[::-1]:
-        print(value)
+    # Pop last element successively till empty
+    for i in range(len(values)):
+        print(values.pop())
